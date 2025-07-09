@@ -1,0 +1,564 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Primary Meta Tags -->
+    <title>Free AI-Powered Click Tracking & Analytics Platform</title>
+    <meta name="title" content="Free AI-Powered Click Tracking & Analytics Platform">
+    <meta name="description"
+        content="ClickTimes provides completely free AI-powered tools for click tracking, response time analysis, user interaction monitoring, and conversion rate optimization. Get instant, professional-grade insights without registration.">
+    <meta name="keywords"
+        content="click tracking, click analytics, response time analysis, user interaction monitoring, conversion optimization, click heatmap, free analytics, ClickTimes">
+    <meta name="author" content="ClickTimes Team">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.clicktimes.net/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.clicktimes.net/">
+    <meta property="og:title" content="Free AI-Powered Click Tracking & Analytics Platform">
+    <meta property="og:description"
+        content="Analyze website clicks, track user interactions, measure click response times, and optimize conversion rates. 100% free and powered by AI — no limits or registration required.">
+    <meta property="og:image" content="https://www.clicktimes.net/images/og-image.png">
+    <meta property="og:site_name" content="ClickTimes">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://www.clicktimes.net/">
+    <meta name="twitter:title" content="Free AI-Powered Click Tracking & Analytics Platform">
+    <meta name="twitter:description"
+        content="Instant click tracking, response time analysis, and user interaction monitoring with AI-powered insights. All tools are completely free.">
+    <meta name="twitter:image" content="https://www.clicktimes.net/images/twitter-image.png">
+    <meta name="twitter:site" content="@clicktimes">
+    <meta name="twitter:creator" content="@clicktimes">
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "ClickTimes",
+      "url": "https://www.clicktimes.net",
+      "description": "ClickTimes is a free AI-powered click analytics platform offering click tracking, response time analysis, user interaction monitoring, and conversion rate optimization.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "ClickTimes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.clicktimes.net/images/logo.png"
+        }
+      },
+      "sameAs": [
+        "https://twitter.com/clicktimes",
+        "https://github.com/clicktimes",
+        "https://linkedin.com/company/clicktimes"
+      ]
+    }
+    </script>
+
+    <!-- Theme & Branding -->
+    <meta name="theme-color" content="#059669">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <link href="dist/output.css" rel="stylesheet">
+    
+    <script defer>
+        // Toggle mobile menu and icon
+        document.addEventListener("DOMContentLoaded", function () {
+            const toggleButton = document.getElementById("mobile-menu-toggle");
+            const mobileMenu = document.getElementById("mobile-menu");
+            const icon = document.getElementById("menu-icon");
+
+            toggleButton.addEventListener("click", () => {
+                mobileMenu.classList.toggle("hidden");
+
+                // Toggle between ☰ and ✕
+                if (icon.textContent === "☰") {
+                    icon.textContent = "✕";
+                } else {
+                    icon.textContent = "☰";
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header
+        class="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm border-b border-gray-200 z-50 transition-all duration-300"
+        id="header">
+        <div class="max-w-6xl mx-auto lg:px-5">
+            <div class="flex justify-between items-center py-4 px-5 lg:px-0">
+                <a href="/" class="flex items-center text-2xl font-bold text-gray-900 no-underline">
+                    <div class="w-8 h-8 mr-2 bg-primary-600 rounded-full flex items-center justify-center">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+                            <path d="M13,9A1,1 0 0,0 12,8A1,1 0 0,0 11,9V13.47L9.21,13.6L9.2,14.6L11.15,14.45C11.64,14.4 12,14 12,13.54V9M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4M7.5,16.5L9,15L7.5,13.5L6,15L7.5,16.5Z"/>
+                        </svg>
+                    </div>
+                    ClickTimes
+                </a>
+
+                <nav class="flex items-center gap-8">
+                    <!-- Desktop Menu -->
+                    <ul class="hidden md:flex list-none gap-8">
+                        <li><a href="#features"
+                                class="no-underline text-gray-900 font-medium hover:text-primary-600 transition-colors">Features</a>
+                        </li>
+                        <li><a href="#tools"
+                                class="no-underline text-gray-900 font-medium hover:text-primary-600 transition-colors">Tools</a>
+                        </li>
+                        <li><a href="#how-it-works"
+                                class="no-underline text-gray-900 font-medium hover:text-primary-600 transition-colors">How
+                                It Works</a>
+                        </li>
+                        <li><a href="/blog"
+                                class="no-underline text-gray-900 font-medium hover:text-primary-600 transition-colors">Blog</a>
+                        </li>
+                    </ul>
+
+                    <a href="#hero-cta" class="bg-primary-600 text-white px-6 py-3 rounded-lg no-underline font-semibold transition-all duration-300 hover:bg-primary-700 hover:-translate-y-0.5 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2">Track Clicks Free</a>
+
+                    <!-- Toggle Button -->
+                    <button id="mobile-menu-toggle"
+                        class="md:hidden bg-none border-none text-2xl cursor-pointer focus:outline-none"
+                        aria-label="Toggle mobile menu">
+                        <span id="menu-icon">☰</span>
+                    </button>
+                </nav>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="md:hidden hidden py-4 px-5 lg:px-0 border-t border-gray-200">
+                <ul class="flex flex-col gap-4">
+                    <li><a href="#features"
+                            class="block text-gray-900 font-medium hover:text-primary-600 transition-colors">Features</a>
+                    </li>
+                    <li><a href="#tools"
+                            class="block text-gray-900 font-medium hover:text-primary-600 transition-colors">Tools</a></li>
+                    <li><a href="#how-it-works"
+                            class="block text-gray-900 font-medium hover:text-primary-600 transition-colors">How It
+                            Works</a></li>
+                    <li><a href="/blog"
+                            class="block text-gray-900 font-medium hover:text-primary-600 transition-colors">Blog</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-primary-50 to-emerald-100 py-12 lg:py-24 mt-[65px] relative overflow-hidden"
+        id="hero">
+        <div class="max-w-6xl mx-auto px-5">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 text-gray-900">Free AI-Powered Click Tracking<br
+                        class="hidden lg:block" /> & Analytics Platform</h1>
+                <p class="text-xl mb-8 max-w-3xl mx-auto text-gray-600">Analyze website clicks, track user interactions, measure click response times, and optimize conversion rates. All powered by AI and completely free with no registration required.</p>
+
+                <div class="flex justify-center flex-wrap gap-4 mt-8 text-left text-gray-500 mx-auto">
+                    <div class="flex items-center gap-3">
+                        <span class="text-green-400 font-medium text-xl">✓</span>
+                        <span>Free Click Tracking & Analytics</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <span class="text-green-400 font-medium text-xl">✓</span>
+                        <span>Free Response Time Analysis</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <span class="text-green-400 font-medium text-xl">✓</span>
+                        <span>Free User Interaction Monitoring</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <span class="text-green-400 font-medium text-xl">✓</span>
+                        <span>Free Conversion Rate Optimization</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <span class="text-green-400 font-medium text-xl">✓</span>
+                        <span>AI-Powered Click Insights</span>
+                    </div>
+                </div>
+
+                <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center items-center"><a class="transition-all duration-300 hover:-translate-y-0.5 hover:shadow-md inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium ring-offset-background  focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary-600 text-white hover:bg-primary-700 h-14 rounded-md text-lg px-8 py-4 min-w-[200px]" href="/">Track Clicks Free</a></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-12 lg:py-20" id="features">
+        <div class="max-w-6xl mx-auto px-5">
+            <h2 class="text-center text-3xl lg:text-4xl font-bold mb-4 text-gray-900">Comprehensive Click Analytics & Performance Tools</h2>
+            <p class="text-center text-lg text-gray-600 mb-12 max-w-2xl mx-auto">Our AI-powered platform provides professional-grade click analysis across all aspects of user interaction and website performance.</p>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-12">
+                <div
+                    class="bg-white p-8 rounded-2xl shadow-md text-center transition-all duration-300 border border-gray-200 hover:-translate-y-1 hover:shadow-lg">
+                    <div
+                        class="w-16 h-16 bg-primary-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-primary-600" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M13,9A1,1 0 0,0 12,8A1,1 0 0,0 11,9V13.47L9.21,13.6L9.2,14.6L11.15,14.45C11.64,14.4 12,14 12,13.54V9M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4M7.5,16.5L9,15L7.5,13.5L6,15L7.5,16.5Z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">Smart Click Analytics</h3>
+                    <p class="text-gray-600 leading-relaxed">Track all website clicks, analyze user behavior patterns, and identify high-performing elements with detailed click heatmaps and statistics.</p>
+                </div>
+                <div
+                    class="bg-white p-8 rounded-2xl shadow-md text-center transition-all duration-300 border border-gray-200 hover:-translate-y-1 hover:shadow-lg">
+                    <div
+                        class="w-16 h-16 bg-primary-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-primary-600" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">Click Response Time Tester</h3>
+                    <p class="text-gray-600 leading-relaxed">Measure click response times, analyze website responsiveness, and identify performance bottlenecks affecting user experience.</p>
+                </div>
+                <div
+                    class="bg-white p-8 rounded-2xl shadow-md text-center transition-all duration-300 border border-gray-200 hover:-translate-y-1 hover:shadow-lg">
+                    <div
+                        class="w-16 h-16 bg-primary-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-primary-600" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14M18,8L20,10L18,12L16,10L18,8M6,8L8,10L6,12L4,10L6,8Z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">User Interaction Tracker</h3>
+                    <p class="text-gray-600 leading-relaxed">Monitor user interactions, track click patterns, and analyze user journey paths to optimize website navigation and usability.</p>
+                </div>
+                <div
+                    class="bg-white p-8 rounded-2xl shadow-md text-center transition-all duration-300 border border-gray-200 hover:-translate-y-1 hover:shadow-lg">
+                    <div
+                        class="w-16 h-16 bg-primary-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-primary-600" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12,2A2,2 0 0,1 14,4A2,2 0 0,1 12,6A2,2 0 0,1 10,4A2,2 0 0,1 12,2M21,9V7L15,1L13.5,2.5L16.17,5.17L10.5,10.84L6.83,7.17L9.5,4.5L8,3L2,9H4V19A2,2 0 0,0 6,21H18A2,2 0 0,0 20,19V9H21M16,10.5L18.5,8L17,6.5L14.5,9L16,10.5Z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">Click Conversion Optimizer</h3>
+                    <p class="text-gray-600 leading-relaxed">Analyze click-to-conversion rates, identify drop-off points, and get AI-powered recommendations to improve conversion performance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="py-12 lg:py-20 bg-gradient-to-br from-gray-50 to-gray-100" id="how-it-works">
+        <div class="max-w-6xl mx-auto px-5">
+            <h2 class="text-center text-3xl lg:text-4xl font-bold mb-4 text-gray-900">Simple 3-Step Process</h2>
+            <p class="text-center text-lg text-gray-600 mb-12 max-w-2xl mx-auto">Get professional click analytics in just three simple steps</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+                <div class="text-center">
+                    <div
+                        class="w-16 h-16 bg-primary-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6">
+                        1</div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">Add Tracking Code</h3>
+                    <p class="text-gray-600">Install our lightweight tracking script on your website</p>
+                </div>
+                <div class="text-center">
+                    <div
+                        class="w-16 h-16 bg-primary-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6">
+                        2</div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">AI Analysis</h3>
+                    <p class="text-gray-600">Our AI monitors and analyzes all click interactions</p>
+                </div>
+                <div class="text-center">
+                    <div
+                        class="w-16 h-16 bg-primary-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6">
+                        3</div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">Get Insights</h3>
+                    <p class="text-gray-600">Receive detailed analytics with optimization recommendations</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section class="py-12 lg:py-20" id="tools">
+        <div class="max-w-6xl mx-auto px-5">
+            <h2 class="text-center text-3xl lg:text-4xl font-bold mb-4 text-gray-900">Free AI-Powered Click Analysis Tools</h2>
+            <p class="text-center text-lg text-gray-600 mb-12 max-w-2xl mx-auto">Professional-grade click analytics tools, completely free and powered by advanced AI</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+                <div
+                    class="flex flex-col bg-white p-8 rounded-2xl shadow-md transition-all duration-300 border border-gray-200 relative hover:-translate-y-1 hover:shadow-lg">
+                    <div class="w-12 h-12 bg-primary-100 rounded-xl flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-primary-600" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M5,5H10V7H7V10H5V5M14,5H19V10H17V7H14V5M17,14H19V19H14V17H17V14M10,17V19H5V14H7V17H10Z"/>
+                        </svg>
+                    </div>
+                    <div class="flex gap-2 mb-4">
+                        <span class="bg-green-100 text-green-700 px-2 py-1 rounded-full text-xs font-medium">100% Free</span>
+                        <span class="bg-emerald-100 text-emerald-700 px-2 py-1 rounded-full text-xs font-medium">AI-Powered</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">Free Click Heatmap</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">Visual click tracking and heatmap generation with detailed interaction analysis and hotspot identification.</p>
+                    <button
+                        class="bg-primary-600 text-white px-6 py-3 mt-auto border-none rounded-lg font-semibold cursor-pointer transition-all duration-300 w-full hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2"
+                        onclick="startTool('heatmap')">Try Now</button>
+                </div>
+
+                <div
+                    class="flex flex-col bg-white p-8 rounded-2xl shadow-md transition-all duration-300 border border-gray-200 relative hover:-translate-y-1 hover:shadow-lg">
+                    <div class="w-12 h-12 bg-primary-100 rounded-xl flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-primary-600" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"/>
+                        </svg>
+                    </div>
+                    <div class="flex gap-2 mb-4">
+                        <span class="bg-green-100 text-green-700 px-2 py-1 rounded-full text-xs font-medium">100% Free</span>
+                        <span class="bg-emerald-100 text-emerald-700 px-2 py-1 rounded-full text-xs font-medium">AI-Powered</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">Free Response Timer</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">Click response time and performance analysis with bottleneck identification and optimization suggestions.</p>
+                    <button
+                        class="bg-primary-600 text-white px-6 py-3 mt-auto border-none rounded-lg font-semibold cursor-pointer transition-all duration-300 w-full hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2"
+                        onclick="startTool('timer')">Try Now</button>
+                </div>
+
+                <div
+                    class="flex flex-col bg-white p-8 rounded-2xl shadow-md transition-all duration-300 border border-gray-200 relative hover:-translate-y-1 hover:shadow-lg">
+                    <div class="w-12 h-12 bg-primary-100 rounded-xl flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-primary-600" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14M18,8L20,10L18,12L16,10L18,8M6,8L8,10L6,12L4,10L6,8Z"/>
+                        </svg>
+                    </div>
+                    <div class="flex gap-2 mb-4">
+                        <span class="bg-green-100 text-green-700 px-2 py-1 rounded-full text-xs font-medium">100% Free</span>
+                        <span class="bg-emerald-100 text-emerald-700 px-2 py-1 rounded-full text-xs font-medium">AI-Powered</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">Free User Journey Tracker</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">Track user paths and interaction flows with comprehensive journey mapping and behavior analysis.</p>
+                    <button
+                        class="bg-primary-600 text-white px-6 py-3 mt-auto border-none rounded-lg font-semibold cursor-pointer transition-all duration-300 w-full hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2"
+                        onclick="startTool('journey')">Try Now</button>
+                </div>
+
+                <div
+                    class="flex flex-col bg-white p-8 rounded-2xl shadow-md transition-all duration-300 border border-gray-200 relative hover:-translate-y-1 hover:shadow-lg">
+                    <div class="w-12 h-12 bg-primary-100 rounded-xl flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-primary-600" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12,2A2,2 0 0,1 14,4A2,2 0 0,1 12,6A2,2 0 0,1 10,4A2,2 0 0,1 12,2M21,9V7L15,1L13.5,2.5L16.17,5.17L10.5,10.84L6.83,7.17L9.5,4.5L8,3L2,9H4V19A2,2 0 0,0 6,21H18A2,2 0 0,0 20,19V9H21M16,10.5L18.5,8L17,6.5L14.5,9L16,10.5Z"/>
+                        </svg>
+                    </div>
+                    <div class="flex gap-2 mb-4">
+                        <span class="bg-green-100 text-green-700 px-2 py-1 rounded-full text-xs font-medium">100% Free</span>
+                        <span class="bg-emerald-100 text-emerald-700 px-2 py-1 rounded-full text-xs font-medium">AI-Powered</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">Free Conversion Analyzer</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">Click-to-conversion rate analysis with funnel optimization and performance improvement recommendations.</p>
+                    <button
+                        class="bg-primary-600 text-white px-6 py-3 mt-auto border-none rounded-lg font-semibold cursor-pointer transition-all duration-300 w-full hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2"
+                        onclick="startTool('conversion')">Try Now</button>
+                </div>
+
+                <div
+                    class="flex flex-col bg-white p-8 rounded-2xl shadow-md transition-all duration-300 border border-gray-200 relative hover:-translate-y-1 hover:shadow-lg">
+                    <div class="w-12 h-12 bg-primary-100 rounded-xl flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-primary-600" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M19,3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3M19,5V19H5V5H19M7.5,18A1.5,1.5 0 0,1 6,16.5A1.5,1.5 0 0,1 7.5,15A1.5,1.5 0 0,1 9,16.5A1.5,1.5 0 0,1 7.5,18M16.5,18A1.5,1.5 0 0,1 15,16.5A1.5,1.5 0 0,1 16.5,15A1.5,1.5 0 0,1 18,16.5A1.5,1.5 0 0,1 16.5,18M7.5,9A1.5,1.5 0 0,1 6,7.5A1.5,1.5 0 0,1 7.5,6A1.5,1.5 0 0,1 9,7.5A1.5,1.5 0 0,1 7.5,9M16.5,9A1.5,1.5 0 0,1 15,7.5A1.5,1.5 0 0,1 16.5,6A1.5,1.5 0 0,1 18,7.5A1.5,1.5 0 0,1 16.5,9Z"/>
+                        </svg>
+                    </div>
+                    <div class="flex gap-2 mb-4">
+                        <span class="bg-green-100 text-green-700 px-2 py-1 rounded-full text-xs font-medium">100% Free</span>
+                        <span class="bg-emerald-100 text-emerald-700 px-2 py-1 rounded-full text-xs font-medium">AI-Powered</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">Free A/B Click Tester</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">Compare click performance across variations with statistical analysis and optimization insights.</p>
+                    <button
+                        class="bg-primary-600 text-white px-6 py-3 mt-auto border-none rounded-lg font-semibold cursor-pointer transition-all duration-300 w-full hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2"
+                        onclick="startTool('ab-test')">Try Now</button>
+                </div>
+
+                <div
+                    class="flex flex-col bg-white p-8 rounded-2xl shadow-md transition-all duration-300 border border-gray-200 relative hover:-translate-y-1 hover:shadow-lg">
+                    <div class="w-12 h-12 bg-primary-100 rounded-xl flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-primary-600" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4M12,6A6,6 0 0,0 6,12A6,6 0 0,0 12,18A6,6 0 0,0 18,12A6,6 0 0,0 12,6M12,8A4,4 0 0,1 16,12A4,4 0 0,1 12,16A4,4 0 0,1 8,12A4,4 0 0,1 12,8Z"/>
+                        </svg>
+                    </div>
+                    <div class="flex gap-2 mb-4">
+                        <span class="bg-green-100 text-green-700 px-2 py-1 rounded-full text-xs font-medium">100% Free</span>
+                        <span class="bg-emerald-100 text-emerald-700 px-2 py-1 rounded-full text-xs font-medium">AI-Powered</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">Free Real-time Monitor</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">Live click tracking and analytics dashboard with real-time insights and instant notifications.</p>
+                    <button
+                        class="bg-primary-600 text-white px-6 py-3 mt-auto border-none rounded-lg font-semibold cursor-pointer transition-all duration-300 w-full hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2"
+                        onclick="startTool('monitor')">Try Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-12 lg:py-20 bg-gradient-to-br from-gray-50 to-gray-100">
+        <div class="max-w-6xl mx-auto px-5">
+            <h2 class="text-center text-3xl lg:text-4xl font-bold mb-4 text-gray-900">Why Choose ClickTimes?</h2>
+            <p class="text-center text-lg text-gray-600 mb-12 max-w-2xl mx-auto">Making professional click analytics accessible to every website</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+                <div class="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                    <div class="text-2xl">🚀</div>
+                    <div>
+                        <h4 class="text-lg font-semibold mb-2 text-gray-900">Real-time Tracking</h4>
+                        <p class="text-gray-600 leading-relaxed">Monitor clicks and interactions as they happen with instant analytics and live updates</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                    <div class="text-2xl">🤖</div>
+                    <div>
+                        <h4 class="text-lg font-semibold mb-2 text-gray-900">AI-Powered</h4>
+                        <p class="text-gray-600 leading-relaxed">Advanced algorithms provide intelligent click analysis with actionable optimization insights</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                    <div class="text-2xl">📊</div>
+                    <div>
+                        <h4 class="text-lg font-semibold mb-2 text-gray-900">Visual Analytics</h4>
+                        <p class="text-gray-600 leading-relaxed">Interactive heatmaps and detailed performance reports with comprehensive data visualization</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                    <div class="text-2xl">🎯</div>
+                    <div>
+                        <h4 class="text-lg font-semibold mb-2 text-gray-900">Conversion Focus</h4>
+                        <p class="text-gray-600 leading-relaxed">Optimize clicks for better conversion rates with targeted recommendations and insights</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                    <div class="text-2xl">⚡</div>
+                    <div>
+                        <h4 class="text-lg font-semibold mb-2 text-gray-900">Performance Insights</h4>
+                        <p class="text-gray-600 leading-relaxed">Identify slow-responding elements and bottlenecks with detailed performance analysis</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                    <div class="text-2xl">🆓</div>
+                    <div>
+                        <h4 class="text-lg font-semibold mb-2 text-gray-900">Completely Free</h4>
+                        <p class="text-gray-600 leading-relaxed">All AI-powered click tools are free to use, no limits or hidden costs</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                    <div class="text-2xl">🌟</div>
+                    <div>
+                        <h4 class="text-lg font-semibold mb-2 text-gray-900">No Registration</h4>
+                        <p class="text-gray-600 leading-relaxed">Start tracking clicks immediately without signup or account creation</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                    <div class="text-2xl">🔒</div>
+                    <div>
+                        <h4 class="text-lg font-semibold mb-2 text-gray-900">Privacy-First</h4>
+                        <p class="text-gray-600 leading-relaxed">GDPR compliant with user privacy protection and secure data handling</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-950 text-white" id="contact">
+        <div class="max-w-6xl mx-auto px-5">
+            <!-- Top section with logo and social icons -->
+            <div class="py-8 border-b border-gray-800">
+                <div class="flex items-center justify-between">
+                    <!-- Logo -->
+                    <div class="flex items-center space-x-3">
+                        <div class="w-8 h-8 bg-primary-600 rounded-full flex items-center justify-center">
+                            <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M13,9A1,1 0 0,0 12,8A1,1 0 0,0 11,9V13.47L9.21,13.6L9.2,14.6L11.15,14.45C11.64,14.4 12,14 12,13.54V9M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4M7.5,16.5L9,15L7.5,13.5L6,15L7.5,16.5Z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <span class="text-xl font-semibold">ClickTimes</span>
+                        </div>
+                    </div>
+
+                    <!-- Social Icons -->
+                    <!--<div class="flex items-center space-x-4">
+                        
+                        <a href="#" class="text-white hover:text-gray-400 transition-colors duration-200">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                            </svg>
+                        </a>
+
+                        
+                        <a href="#" class="text-white hover:text-gray-400 transition-colors duration-200">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                            </svg>
+                        </a>
+
+                       
+                        <a href="#" class="text-white hover:text-gray-400 transition-colors duration-200">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                    </div>-->
+                </div>
+            </div>
+
+            <!-- Bottom section with copyright and links -->
+            <div class="py-8">
+                <div
+                    class="flex flex-col md:flex-row md:items-center md:justify-between space-y-4 md:space-y-0 gap-4 lg:gap-0">
+                    <!-- Copyright -->
+                    <div class="text-md text-white">
+                        <span class="flex items-center">
+                            &copy;&nbsp;Copyright&nbsp;<span id="year"></span>,&nbsp;ClickTimes.net. 
+                        </span>
+                    </div>
+
+                    <!-- Footer Links -->
+                    <ul class="flex flex-wrap items-center gap-6 text-md">
+                        <li><a href="#features"
+                                class="text-white hover:text-gray-400 transition-colors duration-200">Features</a>
+                        </li>
+                        <li><a href="#tools"
+                                class="text-white hover:text-gray-400 transition-colors duration-200">Tools</a></li>
+                        <li><a href="#how-it-works"
+                                class="text-white hover:text-gray-400 transition-colors duration-200">How It Works</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+
+        
+    </script>
+</body>
+
+</html>
