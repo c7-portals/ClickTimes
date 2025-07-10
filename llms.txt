@@ -14,62 +14,11 @@ ClickTimes provides real-time insights into user interactions, helping businesse
 - [Conversion Funnels](https://www.clicktimes.com/tools/funnels): Track and optimize conversion paths
 - [A/B Testing](https://www.clicktimes.com/tools/ab-testing): Test different page variations to improve performance
 
-## Analytics Tools
-
-- [Real-time Analytics](https://www.clicktimes.com/tools/realtime): Monitor user activity as it happens
-- [Click Maps](https://www.clicktimes.com/tools/click-maps): Visualize where users click most
-- [Scroll Depth Analysis](https://www.clicktimes.com/tools/scroll-depth): Understand how far users scroll on your pages
-- [Form Analytics](https://www.clicktimes.com/tools/form-analytics): Track form interactions and drop-offs
-- [Event Tracking](https://www.clicktimes.com/tools/event-tracking): Monitor specific user actions and interactions
-
-## Resources
-
-- [Documentation](https://www.clicktimes.com/docs): Comprehensive guides and references
-- [Tutorials](https://www.clicktimes.com/learn): Step-by-step guides for implementation
-- [Case Studies](https://www.clicktimes.com/case-studies): Success stories and use cases
-- [API Reference](https://www.clicktimes.com/api): Integration documentation for developers
-
-## Crawler Instructions
-
-### Allowed Paths
-- /docs/
-- /learn/
-- /api/
-- /blog/
-- /case-studies/
-
-
-
-### Rate Limiting
-- Maximum 10 requests per minute per IP
-- Respect Retry-After headers
-- Cache responses when possible
-
-## Content Usage Policy
-
-- Public documentation may be used for training AI models
-- Attribution to ClickTimes with link to source is required
-- Do not use our content to create competing services
-- Commercial use requires prior written permission
-- Respect all rate limits and terms of service
 
 ## Sitemap
 
 - [Sitemap Index](https://www.clicktimes.com/sitemap.xml)
 
-## Contact
-
-- For crawler-related inquiries: crawlers@clicktimes.com
-- General support: support@clicktimes.com
-- Business inquiries: business@clicktimes.com
-
-## Company
-
-- [About Us](https://www.clicktimes.com/about)
-- [Pricing](https://www.clicktimes.com/pricing)
-- [Terms of Service](https://www.clicktimes.com/terms)
-- [Privacy Policy](https://www.clicktimes.com/privacy)
-- [GDPR Compliance](https://www.clicktimes.com/gdpr)
 
 ## Version
 

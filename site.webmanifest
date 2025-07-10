@@ -1,7 +1,7 @@
 {
-    "name": "SSO Tools - Free AI-Powered SSO Tools & Testing Platform",
-    "short_name": "SSOTools",
-    "description": "SSOTools provides completely free AI-powered tools for SSO testing, SAML/OAuth validation, security assessment, and identity provider integration. Get instant, professional-grade insights without registration.",
+    "name": "ClickTimes - Free AI-Powered Click Tracking & Analytics Platform",
+    "short_name": "ClickTimes",
+    "description": "ClickTimes provides completely free AI-powered tools for click tracking, response time analysis, user interaction monitoring, and conversion rate optimization. Get instant, professional-grade insights without registration.",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
